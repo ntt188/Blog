@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 20vh 25vh 25vh 15vh;
+    grid-gap: 5vh;
+    grid-template-areas: 
+    "hd hd"
+    "blog1 blog2"
+    "blog3 blog4"
+    "ft ft";
+    justify-content: center;
+    background-color: #1f2833;
+}
+
+header {
+    grid-area: hd;
+}
+
+#blog1 {
+    grid-area: blog1;
+}
+
+#blog2 {
+    grid-area: blog2;
+}
+
+#blog3 {
+    grid-area: blog3;
+}
+
+#blog4 {
+    grid-area: blog4;
+}
+
+footer {
+    grid-area: ft;
+}

@@ -1,0 +1,42 @@
+@media (max-width: 739px) {
+    .container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        margin: auto;
+        grid-template-columns: 95%;
+        grid-template-rows: 100px 200px 200px 200px 200px 75px;
+        grid-gap: 5vh;
+        grid-template-areas: 
+        "hd"
+        "blog1"
+        "blog2"
+        "blog3"
+        "blog4"
+        "ft";
+        justify-content: center;
+        background-color: #1f2833;
+    }
+
+    .blog_car {
+        padding: 5px;
+    }
+    
+    .blog_car h2 {
+        color: var(--text-main-color);
+        height: 15%;
+    }
+    
+    .blog_car .sub-title {
+        color: var(--text-sub-color);
+        height: 15%;
+    }
+    
+    .blog_car p {
+        height: 55%;
+        color: var(--text-color);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+    }
+}
