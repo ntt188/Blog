@@ -28,6 +28,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    overflow: hidden;
 }
 
 .logo {
@@ -37,7 +38,7 @@ header{
 }
 
 header .title {
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
