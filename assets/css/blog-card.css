@@ -1,7 +1,7 @@
 .blog_car {
     display: grid;
     padding: 10px;
-    grid-template-columns: 50% 55%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     grid-template-areas: "ava inf";
     border-radius: 10px;
@@ -10,12 +10,15 @@
 .avata {
     grid-area: ava;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .avata img {
-    border-radius: 50%;
+    border-radius: 10px;
+    color: var(--text-color);
+    height: 70%;
 }
 
 .information {
@@ -27,15 +30,8 @@
 }
 
 .information h2 {
-    color: var(--text-main-color);
     height: 15%;
-}
-
-.information .sub-title {
-    color: var(--text-sub-color);
-    height: 15%;
-    text-decoration: underline;
-    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .information .button {
@@ -52,4 +48,5 @@
 .button:hover {
     background-color: var(--text-main-color);
     color: var(--box-color);
+    box-shadow: 0 0 3px 3px var(--text-main-color)
 }

@@ -1,3 +1,8 @@
+@import url("blog-card.css");
+@import url("grid.css");
+@import url("responsive-homepage.css");
+@import url("font.css");
+
 :root {
     --text-main-color: #66FCF1;
     --text-sub-color: #45A29E;
@@ -28,10 +33,33 @@ header{
 .logo {
     border-radius: 10px;
     border: 2px solid var(--text-sub-color);
+    height: 100%;
 }
 
 header .title {
-    color: var(--text-main-color);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    color: var(--text-main-color); 
+}
+
+.title blockquote {
+    margin: 10px auto;
+    padding: 10px;
+    border-left: 3px solid var(--text-sub-color);
+    background-color: #1f2833;
+}
+
+.title blockquote cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-style: normal;
+    color: var(--text-color);
 }
 
 header button {

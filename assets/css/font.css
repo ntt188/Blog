@@ -1,0 +1,16 @@
+.text-main {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--text-main-color);
+}
+
+.text-sub {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-sub-color);
+    font-weight: bold;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-main-color);
+    font-style: italic;
+}
