@@ -50,7 +50,7 @@ header .title {
 .title blockquote {
     margin: 10px auto;
     padding: 10px;
-    border-left: 3px solid var(--text-sub-color);
+    border-left: 4px solid var(--text-sub-color);
     background-color: #1f2833;
 }
 
